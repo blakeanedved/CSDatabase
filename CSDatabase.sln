@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSDatabase", "CSDatabase\CSDatabase.csproj", "{9C16DF8C-D8C0-4A8C-A5FC-D5DAC17F595A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C16DF8C-D8C0-4A8C-A5FC-D5DAC17F595A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C16DF8C-D8C0-4A8C-A5FC-D5DAC17F595A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C16DF8C-D8C0-4A8C-A5FC-D5DAC17F595A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C16DF8C-D8C0-4A8C-A5FC-D5DAC17F595A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
