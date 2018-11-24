@@ -3,8 +3,11 @@ namespace CSDatabase
 {
     public class CommandInterpreter
     {
-        public CommandInterpreter()
+        internal ScreenBuffer ScreenBuffer;
+
+        public CommandInterpreter(ScreenBuffer screenBuffer)
         {
+            ScreenBuffer = screenBuffer;
         }
     }
 }

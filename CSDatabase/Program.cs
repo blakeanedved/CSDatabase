@@ -6,7 +6,8 @@ namespace CSDatabase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Shell shell = new Shell();
+            shell.Start();
         }
     }
 }
