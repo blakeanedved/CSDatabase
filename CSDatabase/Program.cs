@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSDatabase
 {
@@ -6,7 +7,13 @@ namespace CSDatabase
     {
         static void Main(string[] args)
         {
-            Shell shell = new Shell();
+            Dictionary<String, String> config = new Dictionary<String, String>()
+            {
+                { "db_dir", "/csdb" }
+            };
+            // TODO: read a file that allows config changes
+
+            Shell shell = new Shell(config);
             shell.Start();
         }
     }
